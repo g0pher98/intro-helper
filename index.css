@@ -1,0 +1,23 @@
+body {
+    margin-bottom: 100px;
+}
+
+.intro { margin: 20px 0; }
+.intro p { margin: 2 0; }
+.intro span { font-size: 10pt; }
+
+.card {
+    margin: 20px 0;
+    box-shadow: 1px 1px 20px 0px #bfbfbf;
+}
+
+.length-over {
+    color: #f98181;
+}
+
+.card textarea, .card p, .card span, .card input {
+    font-size: 10pt !important;
+}
+
+.card textarea { min-height: 200px !important; }
+

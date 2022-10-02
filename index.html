@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="intro">
+                        <h4>보다 편리한 자소서 입력기</h4>
+                        <p><span>저장 : </span><code>ctrl + s</code></p>
+                        <p><span>저장내역 : </span><code>ctrl + h</code></p>
+                    </div>
+                    <div class="card-list">
+                        <div class="card">
+                            <div class="card-header">
+                                <input class="form-control" type="text" placeholder="자기소개서 질문을 기입하세요" />
+                            </div>
+                            <div class="card-body">
+                                <textarea class="form-control" placeholder="내용을 입력하세요"></textarea>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <span class="cur-len">0</span>/<input type="number" class="form-control" value="500" /> 자
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn add btn-secondary">
+                                <b>+</b>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+        <script src="storage.js"></script>
+        <script src="card.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
